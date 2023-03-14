@@ -45,6 +45,7 @@ wave_2 = {'right_s0': -0.395, 'right_s1': -0.202, 'right_e0': 1.831, 'right_e1':
 
 # wave three times
 for _move in range(3):
+    print("Moving next wave...")
     limb.move_to_joint_positions(wave_1)
     limb.move_to_joint_positions(wave_2)
 
